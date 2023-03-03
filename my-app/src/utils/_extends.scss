@@ -1,0 +1,22 @@
+@import "./variables";
+
+%cv__search{
+    background-color: $color-white;
+    display: flex;
+    align-items: center;
+    border-radius: 10px 0 0 10px;
+    margin-bottom: 2rem;
+    box-shadow: 10px 5px 5px darkgrey;
+}
+%cv__glass{
+    background-color: $color-blue;
+    padding: 1rem;
+    border-radius: 10px 0 0 10px;
+}
+%h3{
+    font-size: $bodysize;
+    font-family: $dmsans;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 1rem;
+}
