@@ -67,12 +67,12 @@
             <p>
                 <lord-icon class="wanted__icon" src="https://cdn.lordicon.com/msoeawqm.json" trigger="hover"
                     style="width:3rem;height:3rem">
-                </lord-icon>Anciennement éducatrice de jeunes enfants, je recherche un <strong>stage de développeur
+                </lord-icon>Je recherche un <strong>stage de développeur
                     web</strong>
                 <i>non rémunéré</i>
                 du <strong>25/04 au
-                    24/10/2023</strong> (six mois). Mon expérience dans le domaine social m'a sensibilisée à
-                l'importance de l'accessibilité pour tous, y compris pour les personnes en situation de
+                    24/10/2023</strong> (six mois). Mon expérience en tant que travailleuse sociale, m'a appris
+                l'importance de l'accessibilité pour tous, notamment pour les personnes en situation de
                 handicap. Aujourd'hui, <strong>développeuse front-end sensibilisée à l'accessibilité</strong>, je
                 souhaite mettre mes
                 compétences et mes qualités humaines au service de votre entreprise et de vos projets.
@@ -104,7 +104,7 @@
                     <div class="cv__experience">
                         <h5>Développeur web</h5>
                         <p class="p__experience"><i>798 heures intensives</i>
-                            <span class="souligner">Spécialisation : </span>intégration (bundler Vite, Sass, Svelte.js,
+                            <span class="souligner">Spécialisation : </span>intégration i++ (bundler Vite, Sass, Svelte.js,
                             CMS Directus) et accessibilité</p>
                     </div>
 
