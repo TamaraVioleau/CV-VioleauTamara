@@ -77,24 +77,24 @@
     <!-- SECTION PRESENTATION -->
 
     <div class="border">
-        <article class="article__wanted">
-          <p>
-            <lord-icon
-              class="wanted__icon"
-              src="https://cdn.lordicon.com/msoeawqm.json"
-              trigger="hover"
-              style="width:3rem;height:3rem"
-            />Je recherche un <strong>stage de développeur web</strong>
-            <i>non rémunéré</i>
-            du <strong>25/04 au 24/10/2023</strong> (six mois). Mon expérience en
-            tant que travailleuse sociale, m'a appris l'importance de
-            l'accessibilité pour tous, notamment pour les personnes en situation de
-            handicap. Aujourd'hui,
-            <strong>développeuse front-end sensibilisée à l'accessibilité</strong>,
-            je souhaite mettre mes compétences et mes qualités humaines au service
-            de votre entreprise et de vos projets.
-          </p>
-        </article>
+      <article class="article__wanted">
+        <p>
+          <lord-icon
+            class="wanted__icon"
+            src="https://cdn.lordicon.com/msoeawqm.json"
+            trigger="hover"
+            style="width:3rem;height:3rem"
+          />Je recherche un <strong>stage de développeur web</strong>
+          <i>non rémunéré</i>
+          du <strong>25/04 au 24/10/2023</strong> (six mois). Mon expérience en
+          tant que travailleuse sociale, m'a appris l'importance de
+          l'accessibilité pour tous, notamment pour les personnes en situation
+          de handicap. Aujourd'hui,
+          <strong>développeuse front-end sensibilisée à l'accessibilité</strong
+          >, je souhaite mettre mes compétences et mes qualités humaines au
+          service de votre entreprise et de vos projets.
+        </p>
+      </article>
     </div>
 
     <!-- SECTION CV -->
@@ -159,17 +159,19 @@
               />
             </div>
             <div class="cv__text">
-              <h3>Expériences</h3>
+              <h3>Soft skills</h3>
             </div>
-          </div>  
-            <ul>
-                    <li class="patience">Patience</li>
-                    <li class="curiosite">Curiosité</li>
-                    <li class="equipe">Travail d'équipe</li>
-                    <li class="adaptabilite">Adaptabilité</li>
-                    <li class="observation">Observation</li>
-                    <li class="autonomie">Autonomie</li>
-            </ul> 
+          </div>
+          <ul>
+            <li class="patience">Patience</li>
+            <li class="curiosite">Curiosité</li>
+          </ul>
+          <ul><li class="equipe">Travail d'équipe</li></ul>
+          <ul>
+            <li class="adaptabilite">Adaptabilité</li>
+            <li class="observation">Observation</li>
+          </ul>
+          <ul><li class="autonomie">Autonomie</li></ul>
         </article>
       </wrapper>
 
@@ -186,18 +188,20 @@
               />
             </div>
             <div class="cv__text">
-              <h3>Expériences</h3>
+              <h3>Compétences</h3>
             </div>
           </div>
+          <h5>Intégration web</h5>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime,
-            minus maiores fugit provident nam magnam distinctio quidem sed
-            tempora corrupti nihil, voluptatem aliquid! Blanditiis saepe ex ut,
-            rerum itaque debitis. Expedita dolorem alias error amet accusamus
-            ipsum, dolor soluta molestiae sunt aliquid repudiandae eaque cumque?
-            Nesciunt omnis doloribus, quidem veniam iure fugiat consequuntur,
-            recusandae neque non cupiditate, tempora quisquam ad.
+            HTML5 / CSS3 / SCSS (Sass) selon les bonnes pratiques
+            d'accessibilité (W3C, RGAA, WAI-ARIA)
           </p>
+          <h5>Développement front-end</h5>
+          <p>Javascript vanilla, bundler vite, Svelte.js, Bootstrap</p>
+          <h5>Développement back-end</h5>
+          <p>Php (orienté objet, MVC, API Rest, MySQL), Laravel</p>
+          <h5>Gestion de projet numérique</h5>
+          <p>Github, Figma, Photoshop, VS Code</p>
         </article>
         <article class="article__loisirs">
           <div class="cv__search">
@@ -210,18 +214,21 @@
               />
             </div>
             <div class="cv__text">
-              <h3>Expériences</h3>
+              <h3>Loisirs</h3>
             </div>
           </div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime,
-            minus maiores fugit provident nam magnam distinctio quidem sed
-            tempora corrupti nihil, voluptatem aliquid! Blanditiis saepe ex ut,
-            rerum itaque debitis. Expedita dolorem alias error amet accusamus
-            ipsum, dolor soluta molestiae sunt aliquid repudiandae eaque cumque?
-            Nesciunt omnis doloribus, quidem veniam iure fugiat consequuntur,
-            recusandae neque non cupiditate, tempora quisquam ad.
-          </p>
+
+<div class="yoga">
+    <aside></aside>
+    <h5>Yoga</h5>
+    <p>Pratique quotidienne, gestion du stress.</p>
+</div>
+<div class="rpg">
+    <aside></aside>
+    <h5>RPG Littéraire</h5>
+    <p>Role playing game (jeu de rôle) sur forum. Gestion et administration d'un forum (codage et management).</p>
+</div>
+
         </article>
       </wrapper>
     </section>

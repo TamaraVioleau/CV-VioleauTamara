@@ -9,15 +9,23 @@
     box-shadow: 5px 5px 4px rgb(0 0 0 / 25%);
     border: 2px solid black;
 }
+
 %cv__glass{
     background-color: $color-blue;
     padding: 1rem;
     border-radius: 10px 0 0 10px;
 }
+
 %h3{
     font-size: $bodysize;
     font-family: $dmsans;
     font-weight: bolder;
     text-transform: uppercase;
     padding: 1rem;
+}
+
+%h5{
+    font-family: $dmsans;
+    font-weight: bolder;
+    font-size: $bodysize;
 }
