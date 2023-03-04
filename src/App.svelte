@@ -77,24 +77,26 @@
 
     <!-- SECTION PRESENTATION -->
 
-    <article class="article__wanted">
-      <p>
-        <lord-icon
-          class="wanted__icon"
-          src="https://cdn.lordicon.com/msoeawqm.json"
-          trigger="hover"
-          style="width:3rem;height:3rem"
-        />Je recherche un <strong>stage de développeur web</strong>
-        <i>non rémunéré</i>
-        du <strong>25/04 au 24/10/2023</strong> (six mois). Mon expérience en
-        tant que travailleuse sociale, m'a appris l'importance de
-        l'accessibilité pour tous, notamment pour les personnes en situation de
-        handicap. Aujourd'hui,
-        <strong>développeuse front-end sensibilisée à l'accessibilité</strong>,
-        je souhaite mettre mes compétences et mes qualités humaines au service
-        de votre entreprise et de vos projets.
-      </p>
-    </article>
+    <div class="border">
+        <article class="article__wanted">
+          <p>
+            <lord-icon
+              class="wanted__icon"
+              src="https://cdn.lordicon.com/msoeawqm.json"
+              trigger="hover"
+              style="width:3rem;height:3rem"
+            />Je recherche un <strong>stage de développeur web</strong>
+            <i>non rémunéré</i>
+            du <strong>25/04 au 24/10/2023</strong> (six mois). Mon expérience en
+            tant que travailleuse sociale, m'a appris l'importance de
+            l'accessibilité pour tous, notamment pour les personnes en situation de
+            handicap. Aujourd'hui,
+            <strong>développeuse front-end sensibilisée à l'accessibilité</strong>,
+            je souhaite mettre mes compétences et mes qualités humaines au service
+            de votre entreprise et de vos projets.
+          </p>
+        </article>
+    </div>
 
     <!-- SECTION CV -->
     <section class="section__cv">
@@ -107,7 +109,7 @@
                 src="https://cdn.lordicon.com/hgbzryoa.json"
                 trigger="hover"
                 colors="primary:#000000,secondary:#e4e4e4,tertiary:#b26836"
-                style="height:3rem"
+                style="height:3rem width: 3rem;"
               />
             </div>
             <div class="cv__text">
@@ -154,22 +156,23 @@
                 src="https://cdn.lordicon.com/hgbzryoa.json"
                 trigger="hover"
                 colors="primary:#000000,secondary:#e4e4e4,tertiary:#b26836"
-                style="height:3rem"
+                style="height:3rem width: 3rem;"
               />
             </div>
             <div class="cv__text">
               <h3>Expériences</h3>
             </div>
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime,
-            minus maiores fugit provident nam magnam distinctio quidem sed
-            tempora corrupti nihil, voluptatem aliquid! Blanditiis saepe ex ut,
-            rerum itaque debitis. Expedita dolorem alias error amet accusamus
-            ipsum, dolor soluta molestiae sunt aliquid repudiandae eaque cumque?
-            Nesciunt omnis doloribus, quidem veniam iure fugiat consequuntur,
-            recusandae neque non cupiditate, tempora quisquam ad.
-          </p>
+          </div>  
+            <p>
+                <li>Patience</li>
+                <li>Curiosité</li>
+                <li>Travail d'équipe</li>
+            </p>
+            <p>
+                <li>Adaptabilité</li>
+                <li>Observation</li>
+                <li>Autonomie</li>
+            </p> 
         </article>
       </wrapper>
 
@@ -182,7 +185,7 @@
                 src="https://cdn.lordicon.com/hgbzryoa.json"
                 trigger="hover"
                 colors="primary:#000000,secondary:#e4e4e4,tertiary:#b26836"
-                style="height:3rem"
+                style="height:3rem width: 3rem;"
               />
             </div>
             <div class="cv__text">
@@ -206,7 +209,7 @@
                 src="https://cdn.lordicon.com/hgbzryoa.json"
                 trigger="hover"
                 colors="primary:#000000,secondary:#e4e4e4,tertiary:#b26836"
-                style="height:3rem"
+                style="height:3rem width: 3rem;"
               />
             </div>
             <div class="cv__text">
