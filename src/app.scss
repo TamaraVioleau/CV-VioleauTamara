@@ -13,7 +13,7 @@ i {
 p {
   font-size: $bodysize;
   font-family: $dmsans;
-  line-height: 3rem;
+  line-height: 2.5rem;
 }
 
 .souligner {
@@ -32,7 +32,7 @@ p {
   .header__cv {
     background-color: $color-purple;
     border-bottom: 2px solid black;
-    height: 30rem;
+    height: 25rem;
     padding: 1.5rem;
     nav {
       height: 7rem;
@@ -236,7 +236,7 @@ p {
       border-left: 2rem solid $color-peach;
       padding: 2rem;
       background-color: $color-white;
-      margin: 2rem 0 5rem;
+      margin-bottom: 3rem;
       p {
         .wanted__icon {
           display: inline-block;
