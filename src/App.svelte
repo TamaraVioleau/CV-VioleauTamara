@@ -1,5 +1,4 @@
 <!-- Début du site web -->
-
 <body class="body__cv">
   <!-- Corps -->
   <header class="header__cv">
@@ -163,16 +162,14 @@
               <h3>Expériences</h3>
             </div>
           </div>  
-            <p>
-                <li>Patience</li>
-                <li>Curiosité</li>
-                <li>Travail d'équipe</li>
-            </p>
-            <p>
-                <li>Adaptabilité</li>
-                <li>Observation</li>
-                <li>Autonomie</li>
-            </p> 
+            <ul>
+                    <li class="patience">Patience</li>
+                    <li class="curiosite">Curiosité</li>
+                    <li class="equipe">Travail d'équipe</li>
+                    <li class="adaptabilite">Adaptabilité</li>
+                    <li class="observation">Observation</li>
+                    <li class="autonomie">Autonomie</li>
+            </ul> 
         </article>
       </wrapper>
 

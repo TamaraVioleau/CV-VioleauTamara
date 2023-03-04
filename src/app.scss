@@ -35,7 +35,7 @@ p {
     height: 25rem;
     padding: 1.5rem;
     nav {
-      height: 7rem;
+      height: 5.5rem;
       div {
         display: flex;
         justify-content: right;
@@ -68,7 +68,7 @@ p {
         position: relative;
         img {
           display: none;
-          @media screen and (min-width: 560px) {
+          @media screen and (min-width: 770px) {
             display: block;
             position: absolute;
             width: 70px;
@@ -94,7 +94,7 @@ p {
         }
         hr {
           display: none;
-          @media screen and (min-width: 560px) {
+          @media screen and (min-width: 770px) {
             width: 27%;
             height: 0px;
             color: black;
@@ -167,7 +167,7 @@ p {
         }
         .text {
           display: none;
-          @media screen and (min-width: 560px) {
+          @media screen and (min-width: 770px) {
             grid-area: text;
             display: flex;
             justify-content: center;
@@ -179,7 +179,7 @@ p {
         }
         .icon--down {
           display: none;
-          @media screen and (min-width: 560px) {
+          @media screen and (min-width: 770px) {
             grid-area: icon;
             display: flex;
             justify-content: center;
@@ -252,13 +252,13 @@ p {
 
     /*CV*/
     .section__cv {
-      @media screen and (min-width: 560px) {
+      @media screen and (min-width: 770px) {
         display: flex;
         position: relative;
       }
 
       .wrapper__cvleft {
-        @media screen and (min-width: 560px) {
+        @media screen and (min-width: 770px) {
           width: 50%;
           padding: 5rem 5rem 5rem 0rem;
           border-top: 1px solid grey;
@@ -279,11 +279,14 @@ p {
             }
           }
           h4 {
+            width: 65%;
+            @media screen and (min-width: 770px) {
+              width: 60%;
+            }
             background-color: #f8f9f9;
             font-weight: bolder;
             font-family: $dmsans;
             font-size: $bodysize;
-            width: 60%;
             margin: 2rem;
             border-radius: 10px;
             padding: 1rem;
@@ -324,17 +327,71 @@ p {
               }
             }
           }
-          p {
+          ul {
             display: flex;
-            li {
-              margin-right: 1rem;
+            flex-wrap: wrap;
+            gap: 0 1rem;
+            @media screen and (min-width: 770px) {
+              display: grid;
+              grid-template-rows: repeat(3, 1fr);
+              grid-template-columns: repeat(2, 1fr);
+              margin: 0 2rem;            
+              gap: 0 8rem;
             }
+
+            text-align: center;
+            font-size: $bodysize;
+            font-family: $dmsans;
+            line-height: 2.5rem;
+            li{    flex-grow: 1;
+            &.patience {
+              @include softskills(
+                $bcg: $color-white,
+                $bdr: $color-peach,
+                $color: #3f3260
+              );
+            }
+            &.curiosite {
+              @include softskills(
+                $bcg: $color-white,
+                $bdr: $color-yellow,
+                $color: #3f3260
+              );
+            }
+            &.equipe {
+              @include softskills(
+                $bcg: $color-white,
+                $bdr: $color-yellow,
+                $color: #3f3260
+              );
+            }
+            &.adaptabilite {
+              @include softskills(
+                $bcg: $color-white,
+                $bdr: $color-blue,
+                $color: #3f3260
+              );
+            }
+            &.observation {
+              @include softskills(
+                $bcg: $color-white,
+                $bdr: $color-blue,
+                $color: #3f3260
+              );
+            }
+            &.autonomie {
+              @include softskills(
+                $bcg: $color-white,
+                $bdr: $color-peach,
+                $color: #3f3260
+              );
+            }}
           }
         }
       }
 
       .wrapper__cvright {
-        @media screen and (min-width: 560px) {
+        @media screen and (min-width: 770px) {
           width: 50%;
           border-left: 1px solid grey;
           border-top: 1px solid grey;
