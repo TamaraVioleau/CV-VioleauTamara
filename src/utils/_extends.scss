@@ -1,31 +1,52 @@
 @import "./variables";
 
-%cv__search{
-    background-color: $color-white;
-    display: flex;
-    align-items: center;
-    border-radius: 10px 0 0 10px;
-    margin-bottom: 2rem;
-    box-shadow: 5px 5px 4px rgb(0 0 0 / 25%);
-    border: 2px solid black;
+%cv__search {
+  background-color: $color-white;
+  display: flex;
+  align-items: center;
+  border-radius: 10px 0 0 10px;
+  margin-bottom: 2rem;
+  box-shadow: 5px 5px 4px rgb(0 0 0 / 25%);
+  border: 2px solid black;
 }
 
-%cv__glass{
-    background-color: $color-blue;
-    padding: 1rem;
-    border-radius: 10px 0 0 10px;
+%cv__glass {
+  background-color: $color-blue;
+  padding: 1rem;
+  border-radius: 10px 0 0 10px;
 }
 
-%h3{
-    font-size: $bodysize;
-    font-family: $dmsans;
-    font-weight: bolder;
-    text-transform: uppercase;
-    padding: 1rem;
+%h3 {
+  font-size: $bodysize;
+  font-family: $dmsans;
+  font-weight: bolder;
+  text-transform: uppercase;
+  padding: 1rem;
 }
 
-%h5{
-    font-family: $dmsans;
-    font-weight: bolder;
-    font-size: $bodysize;
+%h5 {
+  font-family: $dmsans;
+  font-weight: bolder;
+  font-size: $bodysize;
+}
+
+%iconsocialadress {
+  @media screen and (min-width: 770px) {
+    margin: 5rem 1.5rem 1rem 1rem;
+  }
+  transform: scale(1.5);
+  cursor: pointer;
+  color: $color-darkpurple;
+  background-color: $color-white;
+  padding: 1rem;
+  border-radius: 50%;
+  height: 1.2rem;
+  width: 1.2rem;
+  border: 1px solid $color-darkpurple;
+  box-shadow: 5px 5px 4px rgb(0 0 0 / 25%);
+}
+
+%transition {
+  transition: color 0.2s ease-in-out;
+  box-shadow: 1px 1px 1px rgb(0 0 0 / 80%);
 }

@@ -28,8 +28,11 @@
       <!-- Photo de profil -->
       <aside>
         <header class="header__pp">
-          <i class="header__icon--reduction" />
-          <i class="header__icon--format" /><i class="header__icon--close" />
+            
+            <i class="fa-regular fa-window-minimize minimize"></i>
+            <i class="fa-regular fa-window-restore restore "></i>            
+            <i class="fa-regular fa-rectangle-xmark close"></i>
+
         </header>
         <div class="photo" />
         <div class="text">Contactez-moi.</div>
@@ -45,16 +48,19 @@
       <adress class="adress__contact">
         <ul class="ul__adress">
           <li class="li__adress">
-            <i class="fi fi-rr-home adress__icon" />29450 SIZUN
+            <a href="https://tinyurl.com/3x3257fz">
+              <i class="fa-solid fa-house adress__icon home" />
+            </a>
           </li>
+
           <li class="li__adress">
-            <i class="fi fi-rr-phone-call adress__icon" /><a
-              href="tel:+33635942113">06.35.94.21.13</a
+            <a href="tel:+33635942113"
+              ><i class="fa-solid fa-square-phone adress__icon tel" /></a
             >
           </li>
           <li class="li__adress">
-            <i class="fi fi-rr-envelope-open-text adress__icon" /><a
-              href="mailto:tamara.violeau@gmail.com">tamara.violeau@gmail.com</a
+            <a href="mailto:tamara.violeau@gmail.com"
+              ><i class="fa-solid fa-paper-plane adress__icon mail" /></a
             >
           </li>
         </ul>
@@ -62,14 +68,15 @@
       <aside class="aside__social">
         <ul class="ul__social">
           <li class="li__social">
-            <i class="fi fi-brands-linkedin social__icon" /><a href="#"
-              >Linkedin</a
+            <a href="https://www.linkedin.com/in/tamara-violeau/"
+              ><i class="fa-brands fa-linkedin social__icon linkedin"/></a
             >
           </li>
           <li class="li__social">
-            <i class="fi fi-brands-github social__icon" /><a href="#">Github</a>
+            <a href="https://github.com/TamaraVioleau"
+              ><i class="fa-brands fa-github social__icon github"/></a
+            >
           </li>
-          <li class="li__social" />
         </ul>
       </aside>
     </section>
@@ -218,17 +225,19 @@
             </div>
           </div>
 
-<div class="yoga">
-    <aside></aside>
-    <h5>Yoga</h5>
-    <p>Pratique quotidienne, gestion du stress.</p>
-</div>
-<div class="rpg">
-    <aside></aside>
-    <h5>RPG Littéraire</h5>
-    <p>Role playing game (jeu de rôle) sur forum. Gestion et administration d'un forum (codage et management).</p>
-</div>
-
+          <div class="yoga">
+            <aside />
+            <h5>Yoga</h5>
+            <p>Pratique quotidienne, gestion du stress.</p>
+          </div>
+          <div class="rpg">
+            <aside />
+            <h5>RPG Littéraire</h5>
+            <p>
+              Role playing game (jeu de rôle) sur forum. Gestion et
+              administration d'un forum (codage et management).
+            </p>
+          </div>
         </article>
       </wrapper>
     </section>
