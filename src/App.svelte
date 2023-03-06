@@ -15,24 +15,17 @@
     <section>
       <h1>Tamara VIOLEAU</h1>
       <div class="section__h2">
-        <img
-          src="https://media-public.canva.com/2l0vA/MAEwp32l0vA/1/t.png"
-          alt=""
-        />
         <div class="title__h2">
           <h2>Développeuse front-end</h2>
         </div>
-        <hr />
       </div>
 
       <!-- Photo de profil -->
       <aside>
         <header class="header__pp">
-            
-            <i class="fa-regular fa-window-minimize minimize"></i>
-            <i class="fa-regular fa-window-restore restore "></i>            
-            <i class="fa-regular fa-rectangle-xmark close"></i>
-
+          <i class="fa-regular fa-window-minimize minimize" />
+          <i class="fa-regular fa-window-restore restore " />
+          <i class="fa-regular fa-rectangle-xmark close" />
         </header>
         <div class="photo" />
         <div class="text">Contactez-moi.</div>
@@ -69,12 +62,12 @@
         <ul class="ul__social">
           <li class="li__social">
             <a href="https://www.linkedin.com/in/tamara-violeau/"
-              ><i class="fa-brands fa-linkedin social__icon linkedin"/></a
+              ><i class="fa-brands fa-linkedin social__icon linkedin" /></a
             >
           </li>
           <li class="li__social">
             <a href="https://github.com/TamaraVioleau"
-              ><i class="fa-brands fa-github social__icon github"/></a
+              ><i class="fa-brands fa-github social__icon github" /></a
             >
           </li>
         </ul>

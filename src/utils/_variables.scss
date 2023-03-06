@@ -1,20 +1,24 @@
-  /*$color-uno: #88A1CA;
+/*$color-uno: #88A1CA;
         $color-dos: #AB4F64; */
-        $color-lightpurple:#f0edf3;
-        $color-purple: #c5b7dd;
-        $color-darkpurple:#3f3260;
-        $color-black:#312140;
-        $color-yellow: #ffde59;
-        $color-grey: #e9e6ea;
-        $color-blue: #c4e0e3;
-        $color-white: #f8f9f9;
-        $color-peach: #f0be8d;
-      
-        $iconsize: 1rem;
-      
-        $title: 3.4rem;
-        $undertitle: 2rem;
-        $bodysize: 1.5rem;
-      
-        $dmsans: "dm sans";
-      
+$color-lightpurple: #f0edf3;
+$color-purple: #c5b7dd;
+$color-darkpurple: #3f3260;
+$color-black: #312140;
+$color-yellow: #ffde59;
+$color-grey: #e9e6ea;
+$color-blue: #c4e0e3;
+$color-white: #f8f9f9;
+$color-peach: #f0be8d;
+
+$iconsize: 1rem;
+
+$title: clamp(3.5rem, 6vw + 0.5rem, 7rem);
+$undertitle: clamp(2.2rem, 4vw + 0.5rem, 5.7rem);
+$bodysize: clamp(1.5rem, 1vw + 0.5rem, 5rem);
+
+$lineheight: clamp(2.5rem, 0.5rem + 2vw, 5rem);
+
+
+$dmsans: "dm sans";
+$league: "League Spartan";
+
