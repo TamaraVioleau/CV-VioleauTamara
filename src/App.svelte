@@ -29,7 +29,7 @@
         </header>
         <div class="photo" />
         <div class="text">Contactez-moi.</div>
-        <i class="i fi-rr-angle-down icon--down" />
+        <i class="icon--down"><img src="./src/assets/images/angle-small-down.svg" alt=""></i>
       </aside>
     </section>
   </header>
