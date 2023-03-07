@@ -26,6 +26,8 @@
 
    aside {
       height: 5.5rem;
+      @media screen and (min-width: 1024px) {height:6.5rem;}
+
       div {
         display: flex;
         justify-content: right;

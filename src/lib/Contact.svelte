@@ -37,8 +37,6 @@
     </aside>
   </section>
 
-
-
   <style lang=scss>
     @import "../utils/extends";
     @import "../utils/mixins";
