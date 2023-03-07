@@ -1,15 +1,14 @@
+<script>
+  import Boutonscolors from "./lib/Boutonscolors.svelte";
+  import Contact from "./lib/Contact.svelte";
+</script>
+
 <!-- Début du site web -->
 <body class="body__cv">
   <!-- Corps -->
   <header class="header__cv">
     <!-- Navbar -->
-    <nav>
-      <div>
-        <div class="roundfirst" />
-        <div class="roundsecond" />
-        <div class="roundthird" />
-      </div>
-    </nav>
+    <Boutonscolors />
 
     <!-- Titre -->
     <section>
@@ -29,7 +28,9 @@
         </header>
         <div class="photo" />
         <div class="text">Contactez-moi.</div>
-        <i class="icon--down"><img src="./src/assets/images/angle-small-down.svg" alt=""></i>
+        <i class="icon--down"
+          ><img src="./src/assets/images/angle-small-down.svg" alt="" /></i
+        >
       </aside>
     </section>
   </header>
@@ -37,42 +38,7 @@
   <!-- Main -->
   <main>
     <!-- Contact -->
-    <section class="section__contact">
-      <adress class="adress__contact">
-        <ul class="ul__adress">
-          <li class="li__adress">
-            <a href="https://tinyurl.com/3x3257fz">
-              <i class="fa-solid fa-house adress__icon home" />
-            </a>
-          </li>
-
-          <li class="li__adress">
-            <a href="tel:+33635942113"
-              ><i class="fa-solid fa-square-phone adress__icon tel" /></a
-            >
-          </li>
-          <li class="li__adress">
-            <a href="mailto:tamara.violeau@gmail.com"
-              ><i class="fa-solid fa-paper-plane adress__icon mail" /></a
-            >
-          </li>
-        </ul>
-      </adress>
-      <aside class="aside__social">
-        <ul class="ul__social">
-          <li class="li__social">
-            <a href="https://www.linkedin.com/in/tamara-violeau/"
-              ><i class="fa-brands fa-linkedin social__icon linkedin" /></a
-            >
-          </li>
-          <li class="li__social">
-            <a href="https://github.com/TamaraVioleau"
-              ><i class="fa-brands fa-github social__icon github" /></a
-            >
-          </li>
-        </ul>
-      </aside>
-    </section>
+    <Contact/>
 
     <!-- SECTION PRESENTATION -->
 

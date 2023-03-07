@@ -38,22 +38,9 @@ p {
     @media screen and (min-width: 770px) {
       height: 20rem;
     }
-    nav {
-      height: 5.5rem;
-      div {
-        display: flex;
-        justify-content: right;
-        .roundfirst {
-          @include round($bcg: $color-peach);
-        }
-        .roundsecond {
-          @include round($bcg: $color-yellow);
-        }
-        .roundthird {
-          @include round($bcg: $color-blue);
-        }
-      }
-    }
+
+    /*NAV.SVELTE*/
+
     section {
       position: relative;
       display: flex;
@@ -204,78 +191,8 @@ p {
     @media screen and (min-width: 770px) {
       padding: 5rem;
     }
-    .section__contact {
-      @media screen and (min-width: 470px) {
-        display: flex;
-        justify-content: space-around;
-      }
 
-      margin: 5rem 0;
-      .adress__contact {
-        position: relative;
-        .ul__adress {
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: space-evenly;
-          .li__adress {
-            a {
-              @media screen and (min-width: 470px) {
-                margin-right: clamp(3rem, 6.5vw, 6rem);
-              }
-              text-decoration: none;
-              .adress__icon {
-                @extend %iconsocialadress;
-                color: $color-purple;
-              }
-              .home:hover {
-                color: $color-darkpurple;
-                @extend %transition;
-              }
-              .tel:hover {
-                color: $color-darkpurple;
-                @extend %transition;
-              }
-              .mail:hover {
-                color: $color-darkpurple;
-                @extend %transition;
-              }
-            }
-          }
-        }
-      }
-      .aside__social {
-        position: relative;
-        @media screen and (max-width: 470px) {
-          margin: 3rem;
-        }
-
-        .ul__social {
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: space-evenly;
-          .li__social {
-            a {
-              @media screen and (min-width: 470px) {
-                margin-left: clamp(3rem, 6.5vw, 6rem);
-              }
-              text-decoration: none;
-              .social__icon {
-                @extend %iconsocialadress;
-                color: $color-purple;
-              }
-              .linkedin:hover {
-                @extend %transition;
-                color: #0a66c2;
-              }
-              .github:hover {
-                @extend %transition;
-                color: black;
-              }
-            }
-          }
-        }
-      }
-    }
+    /*BOUTONS.SVELTE*/
 
     /* PRESENTATION */
     .border {
@@ -365,7 +282,7 @@ p {
         .article__softskills {
           margin-bottom: 5rem;
           @media screen and (min-width: 770px) {
-            margin-bottom:0;
+            margin-bottom: 0;
           }
 
           .cv__search {
