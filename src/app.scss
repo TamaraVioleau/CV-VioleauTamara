@@ -302,50 +302,30 @@ p {
               }
             }
           }
-          .yoga {
+          .yoga, .rpg {
             display: grid;
             grid-template-columns: 110px auto;
             grid-template-rows: 20px auto;
             grid-row-gap: 1.15rem;
+            margin-bottom: 2rem;
             aside {
               grid-column: 1;
               grid-row: 1 / 3;
-              background-image: url(./assets/images/yoga.png);
               background-position: center;
               background-size: contain;
               background-repeat: no-repeat;
               height: 50px;
+            }
+            #yoga {
+              background-image: url(./assets/images/yoga.png);
+            }
+            #rpg {
+              background-image: url(./assets/images/womancomputer.png);
             }
             h5 {
               grid-column: 2;
               grid-row: 1;
               gap: 0.5rem;
-              @extend %h5;
-            }
-            p {
-              grid-column: 2;
-              grid-row: 2;
-            }
-          }
-
-          .rpg {
-            display: grid;
-            grid-template-columns: 110px auto;
-            grid-template-rows: 20px auto;
-            padding: 2rem 2rem 2rem 0;
-            grid-row-gap: 1.15rem;
-            aside {
-              grid-column: 1;
-              grid-row: 1 / 3;
-              background-image: url(./assets/images/womancomputer.png);
-              background-position: center;
-              background-size: contain;
-              background-repeat: no-repeat;
-              height: 50px;
-            }
-            h5 {
-              grid-column: 2;
-              grid-row: 1;
               @extend %h5;
             }
             p {

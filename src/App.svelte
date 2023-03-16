@@ -1,6 +1,8 @@
 <script>
   import Boutonscolors from "./lib/Boutonscolors.svelte";
+  import Competences from "./lib/Competences.svelte";
   import Contact from "./lib/Contact.svelte";
+  import Loisirs from "./lib/Loisirs.svelte";
   import PhotoProfil from "./lib/PhotoProfil.svelte";
 </script>
 
@@ -21,7 +23,7 @@
       </div>
 
       <!-- Photo de profil -->
-<PhotoProfil />
+      <PhotoProfil />
     </section>
   </header>
 
@@ -113,32 +115,7 @@
         </article>
 
         <!-- ARTICLE COMPETENCES -->
-        <article class="article__competences">
-          <div class="cv__search">
-            <div class="cv__glass">
-              <lord-icon
-                src="https://cdn.lordicon.com/hgbzryoa.json"
-                trigger="hover"
-                colors="primary:#000000,secondary:#e4e4e4,tertiary:#b26836"
-                style="height:3rem width: 3rem;"
-              />
-            </div>
-            <div class="cv__text">
-              <h3>Compétences</h3>
-            </div>
-          </div>
-          <h5>Intégration web</h5>
-          <p>
-            HTML5 / CSS3 / SCSS (Sass) selon les bonnes pratiques
-            d'accessibilité (W3C, RGAA, WAI-ARIA)
-          </p>
-          <h5>Développement front-end</h5>
-          <p>Javascript vanilla, bundler vite, Svelte.js, Bootstrap</p>
-          <h5>Développement back-end</h5>
-          <p>Php (orienté objet, MVC, API Rest, MySQL), Laravel</p>
-          <h5>Gestion de projet numérique</h5>
-          <p>Github, Figma, Photoshop, VS Code</p>
-        </article>
+        <Competences />
       </wrapper>
 
       <wrapper class="wrapper__cvright">
@@ -207,35 +184,7 @@
         </article>
 
         <!-- ARTICLE LOISIRS -->
-        <article class="article__loisirs">
-          <div class="cv__search">
-            <div class="cv__glass">
-              <lord-icon
-                src="https://cdn.lordicon.com/hgbzryoa.json"
-                trigger="hover"
-                colors="primary:#000000,secondary:#e4e4e4,tertiary:#b26836"
-                style="height:3rem width: 3rem;"
-              />
-            </div>
-            <div class="cv__text">
-              <h3>Loisirs</h3>
-            </div>
-          </div>
-
-          <div class="yoga">
-            <aside />
-            <h5>Yoga</h5>
-            <p>Pratique quotidienne, gestion du stress.</p>
-          </div>
-          <div class="rpg">
-            <aside />
-            <h5>RPG Littéraire</h5>
-            <p>
-              Role playing game (jeu de rôle) sur forum. Gestion et
-              administration d'un forum (codage et management).
-            </p>
-          </div>
-        </article>
+        <Loisirs />
 
         <!-- ARTICLES SOFT SKILLS -->
         <article class="article__softskills">

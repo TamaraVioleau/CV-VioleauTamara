@@ -2,12 +2,15 @@
   height: 15px;
   width: 15px;
   margin-left: 1.5rem;
-  @media screen and (min-width: 770px) {
+  @media screen and (min-width: cv-TamaraVioleau) {
     height: 20px;
     width: 20px;
     margin-left: 2.5rem;
   }
-  @media screen and (min-width: 1024px) {height:25px; width: 25px;}
+  @media screen and (min-width: 1024px) {
+    height: 25px;
+    width: 25px;
+  }
 
   box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
   border-radius: 100%;
