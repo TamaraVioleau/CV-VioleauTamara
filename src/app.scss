@@ -35,7 +35,7 @@ p {
     border-bottom: 2px solid $color-black;
     padding: 1.5rem;
     height: 25rem;
-    @media screen and (min-width: 770px) {
+    @media screen and (min-width: 830px) {
       height: 20rem;
     }
     @media screen and (min-width: 1024px) {
@@ -43,7 +43,6 @@ p {
     }
 
     /*NAV.SVELTE*/
-
     section {
       position: relative;
       display: flex;
@@ -55,7 +54,7 @@ p {
         font-size: $title;
         font-family: "League Spartan";
         font-weight: 700;
-        @media screen and (min-width: 770px) {
+        @media screen and (min-width: 830px) {
           margin-left: 25rem;
         }
         @media screen and (min-width: 1024px) {
@@ -79,7 +78,7 @@ p {
           @media screen and (min-width: 470px) {
             width: 80vw;
           }
-          @media screen and (min-width: 770px) {
+          @media screen and (min-width: 830px) {
             width: 50vw;
             margin-left: 25rem;
           }
@@ -106,7 +105,7 @@ p {
         border: 2px solid $color-black;
         border-radius: 5px 5px 0 0;
         position: relative;
-        @media screen and (min-width: 770px) {
+        @media screen and (min-width: 830px) {
           position: absolute;
           left: 3.5rem;
           top: -3rem;
@@ -119,7 +118,6 @@ p {
           width: 24rem;
           height: 25rem;
         }
-
         top: 3rem;
         margin: auto;
         z-index: 1;
@@ -163,13 +161,13 @@ p {
           background-image: url(https://i.ibb.co/r2JvG2M/Tamara.png);
           background-position: 0 15%;
           background-size: cover;
-          @media screen and (min-width: 770px) {
+          @media screen and (min-width: 830px) {
             border-bottom: 1px solid $color-black;
           }
         }
         .text {
           display: none;
-          @media screen and (min-width: 770px) {
+          @media screen and (min-width: 830px) {
             grid-area: text;
             display: flex;
             justify-content: center;
@@ -184,7 +182,7 @@ p {
           svg {
             height: 100%;
           }
-          @media screen and (min-width: 770px) {
+          @media screen and (min-width: 830px) {
             grid-area: icon;
             display: flex;
             justify-content: center;
@@ -203,7 +201,7 @@ p {
     position: relative;
     background-color: $color-lightpurple;
     padding: 1rem 2.5rem 2.5rem 2.5rem;
-    @media screen and (min-width: 770px) {
+    @media screen and (min-width: 830px) {
       padding: 5rem;
     }
     @media screen and (min-width: 1024px) {
@@ -211,7 +209,6 @@ p {
     }
 
     /*BOUTONS.SVELTE*/
-
     /* PRESENTATION */
     .border {
       border: 2px solid $color-black;
@@ -234,20 +231,20 @@ p {
 
     /*CV*/
     .section__cv {
-      @media screen and (min-width: 770px) {
+      @media screen and (min-width: 830px) {
         display: flex;
         position: relative;
       }
 
       .wrapper__cvleft {
-        @media screen and (min-width: 770px) {
+        @media screen and (min-width: 830px) {
           width: 50%;
           padding: 5rem 5rem 0rem 0rem;
           border-top: 1px solid grey;
         }
 
-        /* ARTICLES EXPERIENCES */
-        .article__experiences {
+        /* ARTICLES FORMATIONS */
+        .article__formations {
           margin-bottom: 5rem;
           .cv__search {
             @extend %cv__search;
@@ -262,7 +259,7 @@ p {
           }
           h4 {
             width: 75%;
-            @media screen and (min-width: 770px) {
+            @media screen and (min-width: 830px) {
               width: 70%;
             }
             background-color: #f8f9f9;
@@ -296,53 +293,6 @@ p {
           }
         }
 
-        /* ARTICLES SOFT KILLS */
-        .article__softskills {
-          margin-bottom: 5rem;
-          @media screen and (min-width: 770px) {
-            margin-bottom: 0;
-          }
-
-          .cv__search {
-            @extend %cv__search;
-            .cv__glass {
-              @extend %cv__glass;
-            }
-            .cv__text {
-              h3 {
-                @extend %h3;
-              }
-            }
-          }
-          ul {
-            display: flex;
-            flex-wrap: wrap;
-            margin: 0 2rem;
-            gap: 0 1rem;
-            text-align: center;
-            font-size: $bodysize;
-            font-family: $dmsans;
-            line-height: $lineheight;
-            li {
-              flex-grow: 1;
-              @include softskills(
-                $bcg: $color-white,
-                $bdr: $color-darkpurple,
-                $color: $color-black
-              );
-            }
-          }
-        }
-      }
-
-      .wrapper__cvright {
-        @media screen and (min-width: 770px) {
-          width: 50%;
-          border-left: 1px solid grey;
-          border-top: 1px solid grey;
-          padding: 5rem 0rem 0rem 5rem;
-        }
-
         /* ARTICLES COMPETENCES */
         .article__competences {
           margin-bottom: 5rem;
@@ -363,6 +313,75 @@ p {
           }
           p {
             margin: 0 2rem 1rem 2rem;
+          }
+        }
+      }
+
+      .wrapper__cvright {
+        @media screen and (min-width: 830px) {
+          width: 50%;
+          border-left: 1px solid grey;
+          border-top: 1px solid grey;
+          padding: 5rem 0rem 0rem 5rem;
+        }
+
+        /* ARTICLES EXPERIENCES */
+        .article__experiences {
+          margin-bottom: 5rem;
+          .cv__search {
+            @extend %cv__search;
+            .cv__glass {
+              @extend %cv__glass;
+            }
+            .cv__text {
+              h3 {
+                @extend %h3;
+              }
+            }
+          }
+          h4 {
+            width: 75%;
+            @media screen and (min-width: 830px) {
+              width: 70%;
+            }
+            background-color: #f8f9f9;
+            font-weight: 500;
+            font-family: $league;
+            font-size: clamp(1.8rem, 1.5vw + 0.5rem, 5.7rem);
+            margin: 2rem;
+            border-radius: 10px;
+            padding: 1rem;
+            text-align: center;
+            color: $color-darkpurple;
+            border: 1.3px solid $color-black;
+          }
+          .cv__experience {
+            display: flex;
+            flex-direction: column;
+            border-left: 1px solid $color-black;
+            margin-top: 2rem;
+            margin-left: 5rem;
+            @media screen and (min-width: 580px) {
+              margin-left: 8rem;
+            }
+            padding-left: 2rem;
+            h5 {
+              @extend %h5;
+            }
+            .p__experience {
+              display: flex;
+              flex-direction: column;
+            }
+            .list{display: flex;
+            ol {
+              margin-left: 5rem;
+              list-style: disc;
+              li {
+                font-size: $bodysize;
+                font-family: $dmsans;
+                line-height: $lineheight;
+              }
+            }}
           }
         }
 
@@ -425,6 +444,44 @@ p {
             p {
               grid-column: 2;
               grid-row: 2;
+            }
+          }
+        }
+
+        /* ARTICLES SOFT KILLS */
+        .article__softskills {
+          margin-bottom: 5rem;
+          @media screen and (min-width: 830px) {
+            margin-bottom: 0;
+          }
+
+          .cv__search {
+            @extend %cv__search;
+            .cv__glass {
+              @extend %cv__glass;
+            }
+            .cv__text {
+              h3 {
+                @extend %h3;
+              }
+            }
+          }
+          ul {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 2rem;
+            gap: 0 1rem;
+            text-align: center;
+            font-size: $bodysize;
+            font-family: $dmsans;
+            line-height: $lineheight;
+            li {
+              flex-grow: 1;
+              @include softskills(
+                $bcg: $color-white,
+                $bdr: $color-darkpurple,
+                $color: $color-black
+              );
             }
           }
         }
