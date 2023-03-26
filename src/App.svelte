@@ -94,16 +94,6 @@
             </p>
           </div>
 
-          <h4>2019 - 2021</h4>
-
-          <div class="cv__experience">
-            <h5>Éducatrice de Jeunes Enfants</h5>
-            <p class="p__experience">
-              Crèche de 30 enfants. EJE en continuité de direction. Gestion
-              d'une équipe de 10 personnes.
-            </p>
-          </div>
-
           <h4>2015 - 2018</h4>
 
           <div class="cv__experience">
@@ -204,9 +194,6 @@
           <ul>
             <li class="patience">Patience</li>
             <li class="curiosite">Curiosité</li>
-          </ul>
-          <ul><li class="equipe">Travail d'équipe</li></ul>
-          <ul>
             <li class="adaptabilite">Adaptabilité</li>
             <li class="observation">Observation</li>
           </ul>
