@@ -22,6 +22,15 @@ p {
 
 /* SASS */
 
+.fa-home-alt:before, .fa-home-lg-alt:before, .fa-home:before, .fa-house:before {
+    content: "\f015";
+    top: 4px;
+    left: 3px;
+    position: absolute;
+    font-size: 1.2rem;
+    color: #3f3260;
+}
+
 /* BODY */
 .body__cv {
   margin: 1.5rem;
