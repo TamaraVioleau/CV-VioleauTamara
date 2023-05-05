@@ -22,7 +22,12 @@ p {
 
 /* SASS */
 
-.fa-home-alt:before, .fa-home-lg-alt:before, .fa-home:before, .fa-house:before {
+.fa-home-alt:before, .fa-home-lg-alt:before, .fa-home:before, .fa-house:before,
+.fa-phone-square:before, .fa-square-phone:before,
+.fa-paper-plane:before, 
+.fa-linkedin:before,
+.fa-github:before
+{
     content: "\f015";
     top: 4px;
     left: 3px;
